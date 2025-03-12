@@ -1,12 +1,18 @@
 {
     "scripts": {
         "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
+        "create-spl-token": "ts-node cli/instructions/create-spl-token.ts"
     },
     "dependencies": {
         "@coral-xyz/anchor": "^0.29.0",
         "@solana/spl-token": "^0.4.6",
-        "@solana/web3.js": "^1.91.8"
+        "@solana/web3.js": "^1.91.8",
+        "@pinata/sdk": "^2.1.0",
+        "bs58": "^5.0.0",
+        "dotenv": "^16.4.5",
+        "@metaplex-foundation/js": "^0.19.5",
+        "@metaplex-foundation/mpl-token-metadata": "^2.13.0"
     },
     "devDependencies": {
         "@types/bn.js": "^5.1.0",
