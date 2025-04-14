@@ -217,17 +217,17 @@ async function createTokenForLiquidity(): Promise<TokenCreationResult> {
     // Step 8: Prepare and upload metadata to Pinata
     console.log("Preparing and uploading metadata to Pinata...");
     const metadata: TokenMetadata = {
-      name: "$BABYELIPHANT",
-      symbol: "BELI",
+      name: "$FLEXXTOKEN",
+      symbol: "FLEXX",
       description:
-        "$BABYELIPHANT is the first memecoin that fully embraces the anxiety, chaos, and excitement of crypto trading.",
+        "$FLEXXTOKEN is the first memecoin that fully embraces the anxiety, chaos, and excitement of crypto trading.",
       image: imageUri,
       decimals: 9,
       attributes: [
-        { trait_type: "Creator", value: "BabyEliphant Community" },
-        { trait_type: "Website", value: "https://www.babyeliphant.vip/" },
-        { trait_type: "Twitter", value: "https://x.com/babyeliphant_vip" },
-        { trait_type: "Telegram", value: "https://t.me/babyeliphant_vip" },
+        { trait_type: "Creator", value: "Flexx Community" },
+        { trait_type: "Website", value: "https://www.flexx.vip/" },
+        { trait_type: "Twitter", value: "https://x.com/flexx_vip" },
+        { trait_type: "Telegram", value: "https://t.me/flexx_vip" },
       ],
       properties: {
         files: [
@@ -239,7 +239,7 @@ async function createTokenForLiquidity(): Promise<TokenCreationResult> {
         category: "image",
         creators: [{ address: payer.publicKey.toString(), share: 100 }],
       },
-      external_url: "https://www.babyeliphant.vip/",
+      external_url: "https://www.flexx.vip/",
     };
 
     const metadataUri: string = await uploadMetadataToPinata(metadata);

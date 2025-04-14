@@ -1,0 +1,23 @@
+{
+  "tokenName": "$FLEXXTOKEN",
+  "tokenSymbol": "FLEXX",
+  "timestamp": "2025-04-14T06:41:16.037Z",
+  "payerPublicKey": "E6iGrG4jW7JEA9GGm3pkqUqYbrpaZgQfDK4nW9Q22QZb",
+  "mintKeypair": {
+    "publicKey": "AZXhJYXsYHKfocDbDEW1rPKE5xcfC2NExe23KmasjKdR",
+    "secretKey": "jlWU1OYXwuiygkepdEmIpfbwaJZTjzrIqTIdcUxxgTGODnmbcFYxZCLxoTAWFbFt4qI0FARYzvbFrMhgBfH+GA=="
+  },
+  "tokenMint": "AZXhJYXsYHKfocDbDEW1rPKE5xcfC2NExe23KmasjKdR",
+  "tokenAccount": "HkBdzZbpCKHbkSunLKytTj879ahnxLa9wvzgKDPkT1WU",
+  "metadataAccount": "BZb1hqRJRMPxbhX8DJNxWxrHUkFCJoAuSQJVgsxzMfeS",
+  "metadataUri": "https://gateway.pinata.cloud/ipfs/QmTcL1QD4jghCBstdTyc41hQahNYRSpigbYizXRgzJ17Xe",
+  "totalSupply": "1000000000 FLEXX",
+  "mintAuthorityRevoked": true,
+  "freezeAuthorityRevoked": true,
+  "transactionSignatures": {
+    "mint": "579EFaaxZU4cBvTJFQYvWXBnUgNrD4jErqAuBay4HaWo15f2N6X8tXYA3XMWA6VpWoiQ3CV34iFyPQMp3CoNy418",
+    "metadata": "5sbUvCKrqhUQ5pePgocMsziLHRbmFEssN6JojjMwpi6BnMt1ML7nM3BuNFNiuaohnQPRXaz2ufiHEfNRL2fkXpW2",
+    "revokeMintAuthority": "2V6shbNbmXPQHUCib49hQHCpUEFMZY7NZB74FzVTBCceq8uReqf1AZd1PuZbYneL4oAGaVvybrcJvessDKUmXiGA",
+    "revokeFreezeAuthority": "2S4vUZHCaHPB1x4pWEPtEVbdojT5JGBkYZq6nq57VkWP8sNtpZScU2Qo9SZ5W78PFnhMWjaLruqaatcBK49fPvP9"
+  }
+}

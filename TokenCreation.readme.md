@@ -78,7 +78,17 @@ solana-keygen new --outfile ~/.config/solana/id.json
 solana address
 
 # Export private key in base58 format for .env file
-solana-keygen dump-keypair ~/.config/solana/id.json | grep "Private key:" | cut -d' ' -f3
+
+# for private key you have to run this command
+
+yarn read-keypair
+npm run read-keypair
+
+# this will pick the private key from the ~/.config/solana/id.json
+
+
+# ignore the command below
+# solana-keygen dump-keypair ~/.config/solana/id.json | grep "Private key:" | cut -d' ' -f3
 ```
 
 #### Option 2: Use an existing wallet
